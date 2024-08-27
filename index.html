@@ -4,8 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script defer src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <script src="index.js"></script>
+    <div class="container">
+        <div class="header-container new-amsterdam-regular">
+            <h1>Rock Paper Scissors</h1>
+        </div>
+        <div class="score-container new-amsterdam-regular">
+            <div class="my-score score">0</div>
+            <div class="divider score">-</div>
+            <div class="bot-score score">0</div>
+        </div>    
+        <div class="button-container">
+            <button value="rock" class="play-button">Rock</button>
+            <button value="paper" class="play-button">Paper</button>
+            <button value="scissors" class="play-button">Scissors</button>
+        </div>
+        <div class="result-container new-amsterdam-regular">
+            <h2 class="round-results">Round Results</h2>
+        </div>
+        <div class="reset-container">
+            <button class="reset new-amsterdam-regular">Reset</button>
+        </div>
+    </div>
 </body>
 </html>

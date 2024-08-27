@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    flex:1;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    background-color: #012A36;
+    color: white;
+    flex: 0.5;
+    align-items: center;
+}
+
+.score-container {
+    display: flex;
+    justify-content: center;
+    flex:0.65;
+    align-items: center;
+    background-color: #29274C;
+    gap: 3rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content:center;
+    flex: 1;
+    padding: 4rem 12rem 0 12rem;
+    gap: 4rem;
+    background-color: #11001C;
+}
+
+.result-container {
+    display: flex;
+    justify-content: center;
+    flex: 0.5;
+    align-items: center;
+    background-color: #11001C;
+    color: #D0A5C0;
+}
+
+.play-button {
+    flex: 1;
+    color: white;
+    background-color: #7E52A0;
+    border: none;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 5rem;
+    transition: 0.3s;
+}
+
+.play-button:hover {
+    background-color: #E6BCCD;
+    color: #11001C;
+    /* transition: 0.3s; */
+}
+
+.play-button:active {
+    background-color:#e9dee3;
+    color: #420769;
+    /* transition: 1s; */
+}
+
+.reset-container {
+    display: flex;
+    justify-content: center;
+    flex: 0.5;
+}
+
+.reset {
+    flex: 1;
+}
+
+.new-amsterdam-regular {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #FFD2FC;
+}
+
+.score {
+    font-size: 7rem;
+    color: #7E52A0;
+}
+
+.round-results {
+    font-size: 3.5rem;
+}
+
+.reset {
+    background-color: #E6BCCD;
+    border: none;
+    color: #11001C;
+    font-size: 3.5rem;
+    transition: 0.3s;
+}
+
+.reset:hover {
+    background-color: #d6b2ee; 
+    color: #583040;
+    /* transition: 0.3s; */
+}
+
+.reset:active {
+    background-color:#e9dee3;
+    color: #420769;
+    /* transition: 1s; */
+}
+
+
+
+
+  
